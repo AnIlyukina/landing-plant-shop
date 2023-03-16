@@ -11,9 +11,9 @@ let order = ref(null)
   <div class="pt-9 px-16 flex justify-between">
     <div class="flex items-center cursor-pointer">
         <img
-          class="w-7 h-6"
+          class="w-10 h-8"
           src="../../src/assets/icons/logo.png">
-        <p class="text-white text-xl pl-2">
+        <p class="text-white text-2xl pl-2">
           Daunku
         </p>
     </div>
@@ -24,7 +24,7 @@ let order = ref(null)
       class="relative cursor-pointer ml-16"
     >
       <img
-        class="w-6"
+        class="w-8"
         src="../../src/assets/icons/basket.png">
       <div
         class="absolute top-0.5 -right-1.5  w-4 h-4 text-center text-xs font-bold
