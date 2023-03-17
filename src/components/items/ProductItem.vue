@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import UIButton from "./UI/UIButton.vue";
+import UIButton from "../UI/UIButton.vue";
 </script>
 
 <template>
@@ -15,27 +15,27 @@ import UIButton from "./UI/UIButton.vue";
           <li class="mr-0.5">
             <img
               class="w-4"
-              src="../assets/icons/star.png">
+              src="../../assets/icons/star.png">
           </li>
           <li class="mr-0.5">
             <img
               class="w-4"
-              src="../assets/icons/star.png">
+              src="../../assets/icons/star.png">
           </li>
           <li class="mr-0.5">
             <img
               class="w-4"
-              src="../assets/icons/star.png">
+              src="../../assets/icons/star.png">
           </li>
           <li class="mr-0.5">
             <img
               class="w-4"
-              src="../assets/icons/star.png">
+              src="../../assets/icons/star.png">
           </li>
           <li class="mr-0.5">
             <img
               class="w-4"
-              src="../assets/icons/star.png">
+              src="../../assets/icons/star.png">
           </li>
         </ul>
       </div>

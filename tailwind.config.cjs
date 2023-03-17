@@ -3,6 +3,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      maxWidth: {
+        'main': '1440px',
+      },
       colors: {
         'gradient-color-1': 'rgba(42, 245, 152, 1)',
         'gradient-color-2': 'rgba(0, 158, 253, 1)'

@@ -1,10 +1,10 @@
 <script setup lang="ts">
 
-import ProductItem from "./ProductItem.vue";
+import ProductItem from "./items/ProductItem.vue";
 </script>
 
 <template>
-  <div class="flex p-16 items-center">
+  <div class="flex max-w-main m-auto p-16 items-center">
     <div>
       <h2 class="text-5xl">
         Best Seller Product
@@ -24,13 +24,13 @@ import ProductItem from "./ProductItem.vue";
       <product-item/>
       <product-item/>
       <product-item
-        class="md:flex hidden"
-      />
-      <product-item
         class="lg:flex hidden"
       />
       <product-item
-        class="xl:flex hidden"
+        class="2xl:flex hidden"
+      />
+      <product-item
+        class="3xl:flex hidden"
       />
     </div>
   </div>

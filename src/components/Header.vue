@@ -8,12 +8,12 @@ let order = ref(null)
 </script>
 
 <template>
-  <div class="pt-9 px-16 flex justify-between">
+  <div class="max-w-main m-auto p-16 pt-9 flex justify-between">
     <div class="flex items-center cursor-pointer">
         <img
           class="w-10 h-8"
           src="../../src/assets/icons/logo.png">
-        <p class="text-white text-2xl pl-2">
+        <p class="text-white font-bold text-2xl pl-2">
           Daunku
         </p>
     </div>

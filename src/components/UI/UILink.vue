@@ -8,7 +8,7 @@ const props = defineProps({
 
 <template>
   <router-link
-    :class="[props.link === '/' ? 'text-teal-300' : '', ' text-xl px-6 hover:text-teal-300' ]"
+    :class="[props.link === '/' ? 'text-teal-300' : '', ' px-6 hover:text-teal-300' ]"
     :to="props.link"
   >
     <slot/>
